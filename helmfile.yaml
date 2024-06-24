@@ -2,6 +2,3 @@ releases:
 - name: prom-norbac-ubuntu
   namespace: prometheus
   chart: ./chart
-  set:
-  - name: rbac.create
-    value: false
